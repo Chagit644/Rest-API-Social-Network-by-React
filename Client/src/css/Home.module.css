@@ -1,0 +1,15 @@
+img {
+    width: 50%;
+}
+.todos {
+    position: fixed;
+    top:52.8vh;
+    left: 39.2vw;
+    font-size: 2em;
+}
+
+.posts {
+    position: fixed;
+    top:41vh;
+    left: 52.3vw;
+    font-size: 1.8em;}

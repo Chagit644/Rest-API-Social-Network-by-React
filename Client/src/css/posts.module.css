@@ -1,0 +1,79 @@
+.singlePostWindow{
+    position: absolute;
+    top: 30%;
+    right:34.4%;
+    width: 30%;
+    height: auto;
+    background-color:#e4e4e4;
+    border-radius: 3%;
+    padding: 10px;
+}
+.xButton{
+    margin-right:auto;
+    margin-left:auto;
+    cursor: pointer;
+    width: 30px;
+}
+.allPosts{
+    display: flex;
+    flex-wrap:wrap;
+}
+.postTitle{
+    height: 60px;
+}
+.singlePost{
+    background-color: #8CAFCE;
+    margin: 1%;
+    height: 200px;
+    width:23%;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.singlePost:hover{
+    background-color: #a7c0d4;
+}
+.back{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* רקע אפור שקוף כחצי שקוף */
+    z-index: 1; /* יוצא מעל לעמוד הרגיל */
+}
+.commentsTable th,
+.commentsTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.commentsTable th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.commentsTable tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.commentsTable tbody tr.selected {
+    background-color: #e0e0e0;
+}
+.postsContainer {
+    display: flex;
+}
+.postsContainer:first-child{
+    margin-left: -5%;
+    width: 110%;
+}
+.postsMain{
+    margin:1% 0 3% -1%;
+    align-items: center;
+    width: 135vw;
+}
+.postsContainer:first-child input{
+    width: 40%;
+}
+.actionButtons{
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+.todosTable {
+    width: 60vw;
+    border-collapse: collapse;
+}
+
+.todosTable th,
+.todosTable td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.todosTable th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.todosTable tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.todosTable tbody tr.selected {
+    background-color: #e0e0e0;
+}
+
+.actionButtons {
+    cursor: pointer;
+}
+.todosContainer {
+    display: flex;
+}
+.todosContainer:first-child{
+    margin-left: -5%;
+    width: 110%;
+}
+.todosMain{
+    margin:1% 5% 3% 8%;
+    align-items: center;
+}
+.orderByTodos{
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.3em;
+    font-size: 0.9em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border: solid black 0.5px;
+    margin:2% 5% 5% 1%;
+}
